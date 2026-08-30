@@ -1,0 +1,9 @@
+# Core model runtime
+torch
+accelerate
+git+https://github.com/huggingface/transformers.git
+
+# Qwen vision and forced-alignment helpers
+qwen-vl-utils[decord]
+qwen-asr
+pillow
