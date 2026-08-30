@@ -1,0 +1,6 @@
+# Add one word or phrase per line.
+# This list is not limited to profanity. You can include any word or phrase
+# that you want the pipeline to detect and mute.
+# Lines beginning with # are ignored.
+#
+# Copy this file to config/profanity.txt before running the mute pipeline.
