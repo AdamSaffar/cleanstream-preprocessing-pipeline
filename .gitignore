@@ -1,0 +1,43 @@
+# generated data
+debug_output/
+inbox/
+processing/
+output/
+logs/
+failed/
+skipped/
+_transcode/
+
+# source media and subtitles
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.m4a
+*.aac
+*.mp3
+*.wav
+*.flac
+*.ttml
+*.dfxp
+*.vtt
+*.srt
+
+# local runtime configuration and generated metadata
+config/titles_queue.json
+config/profanity.txt
+config/*.local.json
+.env
+.env.*
+!.env.example
+
+# python files created locally
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
